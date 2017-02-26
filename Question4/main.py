@@ -23,6 +23,7 @@ import math
 import json
 import pprint
 import os
+import posixpath
 
 from greatcircle import Point
 
@@ -35,7 +36,7 @@ office_point = Point(-41.2920728, 174.7748162)
 path = os.path.dirname(os.path.realpath(__file__))
 
 # read in the json file
-with open(path+'\staff_list.json') as data_file:
+with open(posixpath.join(path, 'staff_list.json')) as data_file:
 	data = json.load(data_file)
     
 # get all the staff

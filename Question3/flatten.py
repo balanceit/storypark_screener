@@ -2,7 +2,7 @@
 def flatten(int_list):
 	"""
 		Assuming `int_list`is a list of arbitrally nested lists of integer values
-		this will return a "flatten" list of those values in there original order
+		this will return a "flatten" list of those values in the original order
 		ignoring any empty lists
 	"""
 	flat_list = []
