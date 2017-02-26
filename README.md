@@ -30,7 +30,7 @@ https://www.airpair.com/nlp/keyword-extraction-tutorial
 ## Question 3
 ### Write some code, that will flatten an array of arbitrarily nested arrays of integers into a flat array of integers. e.g. [[1,2,[3]],4] -> [1,2,3,4].
 
-I liked this one, thought about doing just something simple by calling ruby's `[].flatten` method but thought that would be a bit cheeky.  So keeping with python (I actually started working on Q4 first) I solved this with a recursive function `flatten`.
+I liked this one, thought about doing just something simple by calling ruby's `[].flatten` method but thought that would be a bit cheeky.  So keeping with python (2.7.11) (I actually started working on Q4 first) I solved this with a recursive function `flatten`.
 
 To run the tests
 
@@ -45,7 +45,7 @@ To show the method flattening a couple of nested arrays run:
 
 I really liked this one, was fun to work through and reverse engineer the equation. Bringing back all my trigonometry maths from school.  Was a little amazed that it was still in there somewhere (kind of ;]).
 
-I decided to do this in python because I had never done any unit testing in python and took this as an opportunity to learn a bit of something.
+I decided to do this in python (2.7.11) because I had never done any unit testing in python and took this as an opportunity to learn a bit of something.
 
 To run the tests
 
