@@ -20,9 +20,9 @@ I am quite proud of this work because I was able to implement a solution which c
 ## Question 2
 ### What's the most interesting technical article you've read recently? What did you like about it and why should we take a look at it?
 
-While working on implementing a content based recommendation system for MBIE recently I came across an article (see below) written by Alyona Medelyan, a graduate of the University of Waikato, about automatic keyword extraction.  I liked this article because it was written in a clear and approachable way, it contain all the source code and helped me better understand the problem I with which I was tackling.  In in the end I didn't end up implementing the RAKE algorithm to assist in the recommendation system but it was helpful and interesting nonetheless.
+While working on implementing a content based recommendation system for MBIE recently I came across an article (see below) written by Alyona Medelyan, a graduate of the University of Waikato, about automatic keyword extraction.  I liked this article because it was written in a clear and approachable way, it contain all the source code and helped me better understand the problem with which I was tackling.  In the end I didn't end up implementing the RAKE algorithm to assist in the recommendation system but it was helpful and interesting nonetheless.
 
-After watching the demo video of the Storypark application I thought about how each story can be associated with one or more "Learning Tags". This made me think of a way in which as a story is being written suggestions can be made about which Learning Tags to apply to this story.  A text's keywords can be part of the input to a recommendation system.  The RAKE algorithm is a straightforward way to get these keywords.
+After watching the demo video of the Storypark application I noticed how each story can be associated with one or more "Learning Tags". This made me think of a way in which as a story is being written suggestions can be made about which Learning Tags to apply to this story.  A text's keywords can be part of the input to a recommendation system.  The RAKE algorithm is a straightforward way to get these keywords.
 
 https://www.airpair.com/nlp/keyword-extraction-tutorial
 
@@ -34,7 +34,7 @@ I liked this one, thought about doing just something simple by calling ruby's `[
 
 To run the tests
 
-`python ./Question3/flatten_test.py```
+`python ./Question3/flatten_test.py`
 
 To show the method flattening a couple of nested arrays run:
 
@@ -43,7 +43,7 @@ To show the method flattening a couple of nested arrays run:
 ## Question 4
 ### Display all staff, ordered by name, who live within 2km of our office.
 
-I really liked this one, was fun to work through and reverse engineer the equation. Bringing back all my trigonoitry maths from school.  Was a little amazed that it was still in there somewhere.
+I really liked this one, was fun to work through and reverse engineer the equation. Bringing back all my trigonometry maths from school.  Was a little amazed that it was still in there somewhere (kind of ;]).
 
 To run the tests
 
