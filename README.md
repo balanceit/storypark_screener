@@ -9,7 +9,7 @@ In order to overcome this problem I introduced the concept of 'Effective dating'
 
 I wrote database migration generators to create the triggers and additional tables and assisted in the design and review of the ActiveRecord mixins.
 
-I am quite proud of this work because I was able to implement a solution which could be generically applied, prevented the necessity for a rewrite of a substantial portion of the points calculation and transaction code base and was to this in a way which resulted in minimal computational overhead.
+I am quite proud of this work because I was able to implement a solution which could be generically applied, prevented the necessity for a rewrite of a substantial portion of the points calculation and transaction code base and was done in a way which resulted in minimal computational overhead.
 
 * rest API framework GEM: https://loyaltynz.github.io/hoodoo/
 * documentation of how used: https://github.com/LoyaltyNZ/hoodoo/tree/master/docs/api_specification#http_x_dated_at
