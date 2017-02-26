@@ -45,6 +45,8 @@ To show the method flattening a couple of nested arrays run:
 
 I really liked this one, was fun to work through and reverse engineer the equation. Bringing back all my trigonometry maths from school.  Was a little amazed that it was still in there somewhere (kind of ;]).
 
+I decided to do this in python because I had never done any unit testing in python and took this as an opportunity to learn a bit of something.
+
 To run the tests
 
 `python ./Question4/greatcircle_test.py`
