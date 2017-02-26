@@ -33,10 +33,12 @@ https://www.airpair.com/nlp/keyword-extraction-tutorial
 I liked this one, thought about doing just something simple by calling ruby's `[].flatten` method but thought that would be a bit cheeky.  So keeping with python (I actually started working on Q4 first) I solved this with a recursive function `flatten`.
 
 To run the tests
-```python ./Question3/flatten_test.py```
+
+`python ./Question3/flatten_test.py```
 
 To show the method flattening a couple of nested arrays run:
-```python ./Question3/main.py```
+
+`python ./Question3/main.py`
 
 ## Question 4
 ### Given a file (staff_list.json in this directory), containing a JSON encoded list of Staff, create an program to read and parse this file to display all staff (these aren't real staff members or addresses), ordered by name, who live within 2km of our office, which is located at 175 Victoria Street, Wellington (lat: -41.2920728, long: 174.7748162).
@@ -44,7 +46,9 @@ To show the method flattening a couple of nested arrays run:
 I really liked this one, was fun to work through and reverse engineer the equation. Bringing back all my trigonoitry maths from school.  Was a little amazed that it was still in there somewhere.
 
 To run the tests
-```python ./Question4/greatcircle_test.py```
+
+`python ./Question4/greatcircle_test.py`
 
 To show the staff members who are within 2 km of the office
-```python ./Question4/main.py```
+
+`python ./Question4/main.py`
