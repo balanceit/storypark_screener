@@ -1,7 +1,7 @@
 # main.py
 def flatten(int_list):
 	"""
-		Assuming `int_list`is a list of arbitrally nested lists of integer values
+		Assuming `int_list`is a list of arbitrarily nested lists of integer values
 		this will return a "flatten" list of those values in the original order
 		ignoring any empty lists
 	"""
