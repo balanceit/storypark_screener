@@ -41,7 +41,7 @@ To show the method flattening a couple of nested arrays run:
 `python ./Question3/main.py`
 
 ## Question 4
-### Given a file (staff_list.json in this directory), containing a JSON encoded list of Staff, create an program to read and parse this file to display all staff (these aren't real staff members or addresses), ordered by name, who live within 2km of our office, which is located at 175 Victoria Street, Wellington (lat: -41.2920728, long: 174.7748162).
+### Display all staff, ordered by name, who live within 2km of our office.
 
 I really liked this one, was fun to work through and reverse engineer the equation. Bringing back all my trigonoitry maths from school.  Was a little amazed that it was still in there somewhere.
 
