@@ -26,3 +26,14 @@ After watching the demo video of the Storypark application I thought about how e
 
 https://www.airpair.com/nlp/keyword-extraction-tutorial
 
+
+## Question 3
+### Write some code, that will flatten an array of arbitrarily nested arrays of integers into a flat array of integers. e.g. [[1,2,[3]],4] -> [1,2,3,4].
+
+I liked this one, thought about doing just something simple by calling ruby's `[].flatten` method but thought that would be a bit cheeky.  So keeping with python (I actually started working on Q4 first) I solved this with a recursive function `flatten`.
+
+To run the tests
+```python ./Question3/flatten_test.py```
+
+To show the method flattening a couple of nested arrays run:
+```python ./Question3/main.py```
