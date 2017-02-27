@@ -3,7 +3,7 @@
 ## Question 1
 ### What’s your proudest achievement?
 
-During my time with with Loyalty NZ we ran into a problem when handling backdated transactions (someone buying something, not the db kind).  The problem was how to correctly calculate the amount of loyalty points (AirNZ dollars, New world dollars, FlyBy points, etc.) when the current point to dollar exchange rate may have changed since the point of time of these backdated transactions. At times the calculations were run weeks after the actual transaction had taken place.
+During my time with Loyalty NZ we ran into a problem when handling backdated transactions (someone buying something, not the db kind).  The problem was how to correctly calculate the amount of loyalty points (AirNZ dollars, New world dollars, FlyBy points, etc.) when the current point to dollar exchange rate may have changed since the point of time of these backdated transactions. At times the calculations were run weeks after the actual transaction had taken place.
 
 In order to overcome this problem I introduced the concept of 'Effective dating' resources in our API. By using a combination of database (PostgreSQL) triggers and ActiveRecord mixins this issue was solved with minimal rewrite to the existing API implementation.
 
